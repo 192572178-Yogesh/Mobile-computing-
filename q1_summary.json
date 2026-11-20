@@ -1,0 +1,50 @@
+{
+ "0.9|immediate": {
+  "ontime": 431.8233333333333,
+  "delayed": 0.0,
+  "lost": 48.17666666666667,
+  "mean_delay": 0.0,
+  "mean_delay_of_delayed": 0.0,
+  "delivery_pct": 89.96319444444445
+ },
+ "0.9|store_forward": {
+  "ontime": 431.8233333333333,
+  "delayed": 48.17666666666667,
+  "lost": 0.0,
+  "mean_delay": 0.29686111111111096,
+  "mean_delay_of_delayed": 2.854400151004619,
+  "delivery_pct": 100.0
+ },
+ "0.6|immediate": {
+  "ontime": 287.96666666666664,
+  "delayed": 0.0,
+  "lost": 192.03333333333333,
+  "mean_delay": 0.0,
+  "mean_delay_of_delayed": 0.0,
+  "delivery_pct": 59.99305555555555
+ },
+ "0.6|store_forward": {
+  "ontime": 287.96666666666664,
+  "delayed": 192.03333333333333,
+  "lost": 0.0,
+  "mean_delay": 1.2051736111111107,
+  "mean_delay_of_delayed": 2.997253690992369,
+  "delivery_pct": 100.0
+ },
+ "0.3|immediate": {
+  "ontime": 144.18,
+  "delayed": 0.0,
+  "lost": 335.82,
+  "mean_delay": 0.0,
+  "mean_delay_of_delayed": 0.0,
+  "delivery_pct": 30.0375
+ },
+ "0.3|store_forward": {
+  "ontime": 144.18,
+  "delayed": 335.82,
+  "lost": 0.0,
+  "mean_delay": 2.094819444444445,
+  "mean_delay_of_delayed": 2.9899169150581826,
+  "delivery_pct": 100.0
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "A_voice|FDMA": {
+  "blocking": 0.020217949460459673,
+  "occupancy": 0.8413964330181101,
+  "useful_util": 0.7568408095488443,
+  "attempts": 10827.4,
+  "reserved": 0.05,
+  "idle_channels": 0.1506733886327955,
+  "setup": 0.002652075000000327,
+  "held_silent": 0.0,
+  "overhead": 0.03983372681836027,
+  "useful": 0.7568408095488443
+ },
+ "A_voice|TDMA": {
+  "blocking": 0.05318402999419682,
+  "occupancy": 0.884031376376147,
+  "useful_util": 0.5615609023585344,
+  "attempts": 10827.4,
+  "reserved": 0.125,
+  "idle_channels": 0.10147254567087145,
+  "setup": 0.0038442000000005047,
+  "held_silent": 0.0,
+  "overhead": 0.2081223519705971,
+  "useful": 0.5615609023585344
+ },
+ "B_bursty|FDMA": {
+  "blocking": 0.020217949460459673,
+  "occupancy": 0.8413964330181101,
+  "useful_util": 0.07568408095488437,
+  "attempts": 10827.4,
+  "reserved": 0.05,
+  "idle_channels": 0.1506733886327955,
+  "setup": 0.002652075000000327,
+  "held_silent": 0.7170070827304814,
+  "overhead": 0.003983372681836022,
+  "useful": 0.07568408095488437
+ },
+ "B_bursty|TDMA": {
+  "blocking": 0.05318402999419682,
+  "occupancy": 0.884031376376147,
+  "useful_util": 0.05615609023585336,
+  "attempts": 10827.4,
+  "reserved": 0.125,
+  "idle_channels": 0.10147254567087145,
+  "setup": 0.0038442000000005047,
+  "held_silent": 0.6927149288962157,
+  "overhead": 0.020812235197059686,
+  "useful": 0.05615609023585336
+ },
+ "C_mix7030|FDMA": {
+  "blocking": 0.020217949460459673,
+  "occupancy": 0.8413964330181101,
+  "useful_util": 0.5514362453643951,
+  "attempts": 10827.4,
+  "reserved": 0.05,
+  "idle_channels": 0.1506733886327955,
+  "setup": 0.002652075000000327,
+  "held_silent": 0.21621533072047278,
+  "overhead": 0.029022960282336606,
+  "useful": 0.5514362453643951
+ },
+ "C_mix7030|TDMA": {
+  "blocking": 0.05318402999419682,
+  "occupancy": 0.884031376376147,
+  "useful_util": 0.4091717540883379,
+  "attempts": 10827.4,
+  "reserved": 0.125,
+  "idle_channels": 0.10147254567087145,
+  "setup": 0.0038442000000005047,
+  "held_silent": 0.20886670541419433,
+  "overhead": 0.15164479482659887,
+  "useful": 0.4091717540883379
+ },
+ "D_edge_sync_short|FDMA": {
+  "blocking": 0.1715815815815816,
+  "occupancy": 0.2516728846627042,
+  "useful_util": 0.22123819965809025,
+  "attempts": 29970.0,
+  "reserved": 0.05,
+  "idle_channels": 0.710910759570431,
+  "setup": 0.006206924999997093,
+  "held_silent": 0.0,
+  "overhead": 0.011644115771478445,
+  "useful": 0.22123819965809025
+ },
+ "D_edge_sync_short|TDMA": {
+  "blocking": 0.23719719719719717,
+  "occupancy": 0.25499713676806596,
+  "useful_util": 0.1565353477927331,
+  "attempts": 29970.0,
+  "reserved": 0.125,
+  "idle_channels": 0.6518775053279424,
+  "setup": 0.008572950000003372,
+  "held_silent": 0.0,
+  "overhead": 0.05801419687932432,
+  "useful": 0.1565353477927331
+ },
+ "aloha": {
+  "devices": 1000,
+  "slot_ms": 35.2,
+  "slots_per_min": 1704,
+  "G": 0.5868544600938967,
+  "delivered": 0.9656666666666667,
+  "failed": 0.034333333333333334,
+  "mean_attempts": 3.1433666666666666,
+  "duty_per_device": 0.0005866666666666667,
+  "dedicated_channels_needed": 1000
+ }
+}

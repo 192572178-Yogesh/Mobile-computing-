@@ -1,0 +1,15 @@
+codes,interferer_excess_power_dB,errors,BER
+random,0,68,0.0034
+random,3,151,0.00755
+random,6,290,0.0145
+random,10,1009,0.05045
+random,15,1837,0.09185
+random,20,2935,0.14675
+random,30,7620,0.381
+walsh_async,0,1,5e-05
+walsh_async,3,0,0.0
+walsh_async,6,0,0.0
+walsh_async,10,0,0.0
+walsh_async,15,0,0.0
+walsh_async,20,5,0.00025
+walsh_async,30,1301,0.06505

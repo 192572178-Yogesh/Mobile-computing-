@@ -1,0 +1,16 @@
+{
+ "random|0": 0.0034,
+ "random|3": 0.00755,
+ "random|6": 0.0145,
+ "random|10": 0.05045,
+ "random|15": 0.09185,
+ "random|20": 0.14675,
+ "random|30": 0.381,
+ "walsh_async|0": 5e-05,
+ "walsh_async|3": 0.0,
+ "walsh_async|6": 0.0,
+ "walsh_async|10": 0.0,
+ "walsh_async|15": 0.0,
+ "walsh_async|20": 0.00025,
+ "walsh_async|30": 0.06505
+}

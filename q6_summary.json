@@ -1,0 +1,146 @@
+{
+ "ratings": {
+  "SDMA": [
+   4,
+   2,
+   3,
+   2,
+   1,
+   3
+  ],
+  "TDMA": [
+   3,
+   2,
+   2,
+   2,
+   3,
+   2
+  ],
+  "FDMA": [
+   4,
+   1,
+   2,
+   2,
+   4,
+   1
+  ],
+  "CDMA": [
+   3,
+   3,
+   5,
+   3,
+   2,
+   4
+  ],
+  "OFDMA": [
+   5,
+   3,
+   2,
+   5,
+   3,
+   4
+  ]
+ },
+ "criteria": [
+  "C1 capacity (continuous traffic)",
+  "C2 efficiency, bursty/small reports",
+  "C3 interference & jam resistance",
+  "C4 high rate / frequency-selective channel",
+  "C5 device simplicity & signalling cost",
+  "C6 scalability in users"
+ ],
+ "res": {
+  "1 Wide-area cellular voice": {
+   "stable_pct_all_weights": 100.0,
+   "weights": [
+    0.3,
+    0.05,
+    0.15,
+    0.1,
+    0.2,
+    0.2
+   ],
+   "scores": {
+    "SDMA": 2.75,
+    "TDMA": 2.5,
+    "FDMA": 2.75,
+    "CDMA": 3.3000000000000003,
+    "OFDMA": 3.8500000000000005
+   },
+   "best": "OFDMA",
+   "runner_up": "CDMA",
+   "margin": 0.5500000000000003,
+   "flips": [],
+   "n_cases": 12
+  },
+  "2 Jam-resistant tactical link": {
+   "stable_pct_all_weights": 100.0,
+   "weights": [
+    0.1,
+    0.05,
+    0.5,
+    0.1,
+    0.1,
+    0.15
+   ],
+   "scores": {
+    "SDMA": 2.75,
+    "TDMA": 2.2,
+    "FDMA": 2.2,
+    "CDMA": 4.05,
+    "OFDMA": 3.05
+   },
+   "best": "CDMA",
+   "runner_up": "OFDMA",
+   "margin": 1.0,
+   "flips": [],
+   "n_cases": 12
+  },
+  "3 High-rate stadium downlink": {
+   "stable_pct_all_weights": 100.0,
+   "weights": [
+    0.25,
+    0.05,
+    0.1,
+    0.35,
+    0.1,
+    0.15
+   ],
+   "scores": {
+    "SDMA": 2.65,
+    "TDMA": 2.35,
+    "FDMA": 2.5,
+    "CDMA": 3.25,
+    "OFDMA": 4.25
+   },
+   "best": "OFDMA",
+   "runner_up": "CDMA",
+   "margin": 1.0,
+   "flips": [],
+   "n_cases": 12
+  },
+  "4 5,000 low-rate sensors": {
+   "stable_pct_all_weights": 100.0,
+   "weights": [
+    0.05,
+    0.4,
+    0.1,
+    0.05,
+    0.25,
+    0.15
+   ],
+   "scores": {
+    "SDMA": 2.0999999999999996,
+    "TDMA": 2.3,
+    "FDMA": 2.05,
+    "CDMA": 3.1,
+    "OFDMA": 3.25
+   },
+   "best": "OFDMA",
+   "runner_up": "CDMA",
+   "margin": 0.1499999999999999,
+   "flips": [],
+   "n_cases": 12
+  }
+ }
+}
